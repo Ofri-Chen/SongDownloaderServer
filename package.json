@@ -4,7 +4,12 @@
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "latest",
-    "q": "latest"
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "q": "latest",
+    "ytdl": "^0.7.0",
+    "ytdl-core": "^0.15.2"
   },
   "scripts": {
     "start": "cd lib && node app.js"
