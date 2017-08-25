@@ -21,8 +21,7 @@ module.exports = {
         artistSongsPath: '../Songs/mp3/Artist_Name'
     },
     youtubeBaseUrl: 'https://www.youtube.com/watch?v=',
-    maxParallelConversions: 0,
-    watchForTracksInterval: 5000,
-    ffmpegPath: '../node_modules/ffmpeg/bin/ffmpeg.exe'
-    // ffmpegPath:'C:/Users/ofric/Desktop/Programming/SongDownloaderServer/node_modules/ffmpeg/bin/ffmpeg.exe'
+    maxParallelConversions: 5,
+    watchForTracksInterval: 1000,
+    ffmpegPath: '../node_modules/ffmpeg/bin/ffmpeg.exe',
 };
