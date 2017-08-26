@@ -4,8 +4,8 @@
     <list default="true" id="c97ca689-d06e-4368-b0f3-bf76a50138a1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Metadata/MetadataInjector.js" afterPath="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Metadata/MetadataInjector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/TracksHandling/Manager.js" afterPath="$PROJECT_DIR$/lib/TracksHandling/Manager.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/app.js" afterPath="$PROJECT_DIR$/lib/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="SongDownloaderServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+            <state relative-caret-position="98">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -41,18 +41,18 @@
       <file leaf-file-name="Manager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/TracksHandling/Manager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            <state relative-caret-position="197">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MetadataInjector.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MetadataInjector.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Metadata/MetadataInjector.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            <state relative-caret-position="238">
+              <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -153,11 +153,11 @@
         <option value="$PROJECT_DIR$/lib/TracksHandling/Metadata/MetadataInjector.js" />
         <option value="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Conversion/ConversionHandler.js" />
         <option value="$PROJECT_DIR$/lib/Common/Utilities.js" />
-        <option value="$PROJECT_DIR$/lib/TracksHandling/Manager.js" />
         <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Manager.js" />
-        <option value="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Metadata/MetadataInjector.js" />
         <option value="$PROJECT_DIR$/lib/app.js" />
+        <option value="$PROJECT_DIR$/lib/TracksHandling/Manager.js" />
+        <option value="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Metadata/MetadataInjector.js" />
       </list>
     </option>
   </component>
@@ -173,7 +173,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1692" />
+    <option name="width" value="1696" />
     <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -333,15 +333,15 @@
       <workItem from="1502997298152" duration="37186000" />
       <workItem from="1503159087758" duration="4678000" />
       <workItem from="1503653912901" duration="5602000" />
-      <workItem from="1503670922300" duration="23307000" />
+      <workItem from="1503670922300" duration="26195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109784000" />
+    <option name="totallyTimeSpent" value="112672000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1692" height="1026" extended-state="0" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3568019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -375,19 +375,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="81" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/app.js</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="82" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/TrackData/TrackData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Common/Utilities.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -715,14 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/TracksHandling/Manager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -747,18 +739,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Metadata/MetadataInjector.js">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/6.11.0/core-modules/net.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="163">
+          <caret line="1084" column="5" selection-start-line="1084" selection-start-column="5" selection-end-line="1084" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+        <state relative-caret-position="98">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/TracksHandling/Manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Metadata/MetadataInjector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
           <folding />
         </state>
       </provider>
