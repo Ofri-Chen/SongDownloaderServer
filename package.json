@@ -3,12 +3,16 @@
   "version": "0.0.1",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
     "express": "latest",
     "fluent-ffmpeg": "^2.1.2",
     "fs": "0.0.1-security",
     "https": "^1.0.0",
+    "log4js": "^2.3.12",
     "node-id3": "0.0.10",
     "q": "latest",
+    "simple-node-logger": "^0.93.33",
+    "urlencode": "^1.1.0",
     "ytdl": "^0.7.0",
     "ytdl-core": "^0.15.2"
   },

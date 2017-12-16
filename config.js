@@ -11,7 +11,7 @@ module.exports = {
             jsonFormat: 'format=json'
         },
         youtube: {
-            api: 'https://www.googleapis.com/youtube/v3/search?part=snippet&q=Track_Name&type=video&maxResults=1&key=AIzaSyDOegfItpZ_goZccL_pmREwZoNXoaYZNaw',
+            api: 'https://www.googleapis.com/youtube/v3/search?part=snippet&q=Track_Name&type=video&maxResults=$Max_Results$&key=AIzaSyDOegfItpZ_goZccL_pmREwZoNXoaYZNaw'
         }
     },
     directories: {
@@ -23,5 +23,5 @@ module.exports = {
     youtubeBaseUrl: 'https://www.youtube.com/watch?v=',
     maxParallelConversions: 5,
     watchForTracksInterval: 1000,
-    ffmpegPath: '../node_modules/ffmpeg/bin/ffmpeg.exe',
+    ffmpegPath: '../ffmpeg/ffmpeg-3.4-win64-static/bin/ffmpeg.exe',
 };
