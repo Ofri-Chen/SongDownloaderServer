@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c97ca689-d06e-4368-b0f3-bf76a50138a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Common/logger.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Conversion/ConversionHandler.js" afterPath="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/ConversionHandler.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Metadata/MetadataInjector.js" afterPath="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/MetadataInjector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/TrackData/ApiRequestHandler.js" afterPath="$PROJECT_DIR$/lib/TrackData/ApiRequestHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/TracksHandling/Download/ApiRequestHandler.js" afterPath="$PROJECT_DIR$/lib/TracksHandling/Download/ApiRequestHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/TracksHandling/Download/trackDownloader.js" afterPath="$PROJECT_DIR$/lib/TracksHandling/Download/trackDownloader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Conversion/ConversionHandler.js" afterPath="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Conversion/ConversionHandler.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Manager.js" afterPath="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Manager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Metadata/MetadataInjector.js" afterPath="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Metadata/MetadataInjector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/TracksHandling/Manager.js" afterPath="$PROJECT_DIR$/lib/TracksHandling/Manager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Types/Artist.js" afterPath="$PROJECT_DIR$/lib/Types/Artist.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/app.js" afterPath="$PROJECT_DIR$/lib/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="SongDownloaderServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,41 +30,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrackData.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/TrackData/TrackData.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            <state relative-caret-position="412">
+              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MetadataInjector.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Metadata/MetadataInjector.js">
+        <entry file="file://$PROJECT_DIR$/lib/TracksHandling/FileManipulation/MetadataInjector.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="548">
+              <caret line="107" column="33" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Manager.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1513522315820.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/1513522315820.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Manager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/TracksHandling/Manager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+            <state relative-caret-position="387">
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -93,7 +86,7 @@
             <state relative-caret-position="255">
               <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
               <folding>
-                <marker date="1513269416407" expanded="true" signature="732:739" ph="..." />
+                <marker date="1513522313305" expanded="true" signature="712:719" ph="..." />
               </folding>
             </state>
           </provider>
@@ -130,7 +123,7 @@
         </entry>
       </file>
       <file leaf-file-name="ConversionHandler.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Conversion/ConversionHandler.js">
+        <entry file="file://$PROJECT_DIR$/lib/TracksHandling/FileManipulation/ConversionHandler.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="387">
               <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
@@ -191,6 +184,7 @@
         <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/lib/TracksHandling/Download/ApiRequestHandler.js" />
         <option value="$PROJECT_DIR$/lib/TracksHandling/Manager.js" />
+        <option value="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/MetadataInjector.js" />
       </list>
     </option>
   </component>
@@ -325,32 +319,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FileManipulation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conversion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SongDownloaderServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SongDownloaderServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TracksHandling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Download" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -392,11 +360,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ofric\Desktop\Programming\NewSongDownloader\SongDownloaderServer\lib\TracksHandling\FileManipulation" />
       <recent name="C:\Users\ofric\Desktop\Programming\SongDownloaderServer\lib\TracksHandling\FileManipulation" />
       <recent name="C:\Users\ofric\Desktop\Programming\SongDownloaderServer" />
       <recent name="C:\Users\ofric\Desktop\Programming\SongDownloaderServer\lib\TracksHandling\Conversion" />
       <recent name="C:\Users\ofric\Desktop\Programming\SongDownloaderServer\lib\TracksHandling\Download" />
-      <recent name="C:\Users\ofric\Desktop\Programming\SongDownloaderServer\lib\Types" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.app.js (1)">
@@ -406,10 +374,10 @@
     <configuration default="false" name="ApiRequestHandler.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/lib/TracksHandling/Download/ApiRequestHandler.js" working-dir="$PROJECT_DIR$/lib/TracksHandling">
       <method />
     </configuration>
-    <configuration default="false" name="VideoConverter.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Conversion/ConversionHandler.js" working-dir="$PROJECT_DIR$/lib/TracksHandling">
+    <configuration default="false" name="VideoConverter.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/ConversionHandler.js" working-dir="$PROJECT_DIR$/lib/TracksHandling">
       <method />
     </configuration>
-    <configuration default="false" name="MetadataInjector.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="MetadataInjector.js" working-dir="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Metadata">
+    <configuration default="false" name="MetadataInjector.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/MetadataInjector.js" working-dir="$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Metadata">
       <method />
     </configuration>
     <configuration default="false" name="logger.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="logger.js" working-dir="$PROJECT_DIR$/lib/Common">
@@ -505,12 +473,12 @@
       <workItem from="1503159087758" duration="4678000" />
       <workItem from="1503653912901" duration="5602000" />
       <workItem from="1503670922300" duration="26195000" />
-      <workItem from="1512723978522" duration="39013000" />
+      <workItem from="1512723978522" duration="43929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151685000" />
+    <option name="totallyTimeSpent" value="156601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -520,8 +488,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286026" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25655022" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3242358" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25655022" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286026" sideWeight="0.49166667" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -533,6 +501,24 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -552,13 +538,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/TrackData/ApiRequestHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -810,14 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Metadata/MetadataInjector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/TrackData/ApiRequestHandler.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -834,7 +805,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/TracksHandling/FileManipulation/Conversion/ConversionHandler.js">
+    <entry file="file://$PROJECT_DIR$/lib/TracksHandling/FileManipulation/ConversionHandler.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
@@ -847,7 +818,7 @@
         <state relative-caret-position="255">
           <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
           <folding>
-            <marker date="1513269416407" expanded="true" signature="732:739" ph="..." />
+            <marker date="1513522313305" expanded="true" signature="712:719" ph="..." />
           </folding>
         </state>
       </provider>
@@ -868,18 +839,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app.js">
+    <entry file="file://$PROJECT_DIR$/lib/TracksHandling/Manager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="387">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/TracksHandling/Manager.js">
+    <entry file="file://$PROJECT_DIR$/log/1513522315820.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/TracksHandling/FileManipulation/MetadataInjector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="107" column="33" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
           <folding />
         </state>
       </provider>
